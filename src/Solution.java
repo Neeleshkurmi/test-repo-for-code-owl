@@ -3,6 +3,7 @@ import java.util.Stack;
 public class Solution {
     static void main() {
         System.out.println(longestValidParenthesis(")(()(())())()(()(())())()(()(())())()(()(())())("));
+        System.out.println(longestValidParenthesis(")(()(())())()(()(())())()(()(())())()(()(())())("));
     }
 
     public static int longestValidParenthesis(String s) {
